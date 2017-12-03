@@ -1,0 +1,156 @@
+#container {
+	width: 100%;
+	margin: 0 auto;
+	height: 300px;
+	background: #3a6890;
+	position: relative;
+}
+
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    
+    padding: 0;
+    margin:0;
+}
+
+section {
+	float: left;
+}
+
+aside {
+	float: right;
+}
+
+.phone {
+	position: relative;
+	top: 100px;
+	left: 150px;
+}
+
+.frame {
+	float: right;
+	position: relative;
+	top: 200px;
+	left: 295px;
+}
+
+.button {
+    background-color: #4176a4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    left: 575px;
+    float: right;
+}
+
+.buttondiv {
+	position: absolute;
+	top: 100px;
+	left: 390px;
+	
+	
+	
+}
+
+
+.brand{
+	
+	position: absolute;
+	top: 95px;
+	left: 612px;
+}
+
+.iphone {
+	position: relative;
+	top: 0px;
+	left: 335px;
+}
+
+.android {
+	position: relative;
+	top: -54px;
+	left: 560px;
+}
+
+footer{
+	padding-top: 450px;
+}
+
+
+ul {
+	padding-left: 150px;
+	font-weight: bold;
+}
+
+li {
+	list-style-type: none;
+	clear: both;
+	display: inline;
+	padding: 0px 20px;
+	color: #003569;
+	font: inherit;
+	text-transform: capitalize;
+}
+
+p {
+	width: 425px;
+	position: relative;
+	top: -270px;
+	left: 45px;
+	line-height: 200%;
+}
+
+h1 {
+	width: 425px;
+	position: relative;
+	top: -270px;
+	left: 45px;
+	line-height: 125%;
+	color: #3a6890;
+	font-size: 28px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #3a6890;
+
+}
+
+.copy {
+	text-align: right;
+	float: right;
+	display : inline;
+	color: #999;
+	clear: both;
+	padding-right: 160px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+@media screen and (max-width:99%) {
+	#container{
+		width:100%;
+	}
+	section{
+		width: 50%;
+	}
+	aside{
+		width: 50%;
+	}
+	img{
+		width: 100%;
+	}
+}
