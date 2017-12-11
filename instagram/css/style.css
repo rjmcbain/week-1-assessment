@@ -2,7 +2,7 @@
 	width: 100%;
 	margin: 0 auto;
 	height: 300px;
-	background: #3a6890;
+	background: #3a6890;		/*setting the containter dimensions*/
 	position: relative;
 }
 
@@ -19,14 +19,14 @@ section {
 }
 
 .phone {
-	position: relative;
+	position: relative;			/*positioning the phone photo*/
 	top: 100px;
 	left: 150px;
 }
 
 .frame {
 	float: right;
-	position: relative;
+	position: relative;	
 	top: 200px;
 	left: 295px;
 }
